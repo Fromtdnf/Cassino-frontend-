@@ -1,31 +1,7 @@
 body {
-  background: #111;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.container {
-  max-width: 600px;
-  margin: auto;
-  background: #222;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #0f0;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 18px;
-  border: none;
-  background: #0f0;
-  color: #000;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-button:hover {
-  background: #0c0;
+    background-color: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
 }
