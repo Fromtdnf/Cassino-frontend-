@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cassino Online</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Bem-vindo ao Cassino Online</h1>
-    <button onclick="testarAPI()">Testar API</button>
-    <p id="resultado"></p>
-  </div>
+  <h1>Bem-vindo ao Cassino Online</h1>
+
+  <h2>Cadastro</h2>
+  <form id="registerForm">
+    <input type="text" placeholder="Nome" id="registerName" required>
+    <input type="email" placeholder="E-mail" id="registerEmail" required>
+    <input type="password" placeholder="Senha" id="registerPassword" required>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Login</h2>
+  <form id="loginForm">
+    <input type="email" placeholder="E-mail" id="loginEmail" required>
+    <input type="password" placeholder="Senha" id="loginPassword" required>
+    <button type="submit">Entrar</button>
+  </form>
+
+  <h2>Jogar</h2>
+  <button id="playBtn">Jogar Slot</button>
+
+  <h2>Histórico</h2>
+  <button id="historyBtn">Ver Histórico</button>
+
+  <div id="output"></div>
 
   <script src="script.js"></script>
 </body>
